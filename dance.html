@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+    
+        }
+        h1{
+            color: yellow;
+        }
+        p{
+            color: white;
+        }.sec2 p{
+            color: yellow;font-weight: 700;
+        }
+        body{
+            /* height: 110vh; */
+            background-image:linear-gradient(to bottom,#5d1d77,#ee8484);overflow-x: hidden;
+        }
+        .main{
+         
+         width: 100%;position: relative;
+         /* height: 80vh; */
+         display: flex;
+        }
+        .menu{
+            margin-top: 10vh;position: relative;
+            height: 10vh;
+            /* background-color: red; */
+        }
+        .menu img{
+            width: 20%;
+height: 10vh;float: left;margin-left: 5%;
+margin-top:5px;
+position: absolute;left: 0%;
+/* transform: translate(0%,0%); */
+        }
+.content{
+
+    width: 60%;
+    /* background-color: green; */
+    height: 100%;position: relative;
+}
+.image{
+    width: 40%;
+    /* background-color: #dcff14; */
+    height: 100%;
+}
+.part1{
+    /* background-color: blue; */
+    /* position: absolute; */
+    position: relative;
+    transform: translate(150%,0%);
+    right: 0%;width: 50%;z-index: 55;
+}
+.sec1{
+    display: inline-block;width:35% ;
+    /* background-color: #5d1d77; */
+    font-size: 50px;
+}
+.sec2{
+    display: inline-block;width: 25%;
+    /* background-color: #dcff14; */
+    height:fit-content;font-size: 30px;
+}
+.heading{
+    position: relative;
+    z-index: 5;
+}
+.heading h1
+{
+    font-size: 60px;
+}
+.heading p{
+    font-size: 25px;
+}
+.subcontent{
+    width: 70%;
+    margin: auto;
+}
+.bac{
+        position: absolute;
+        top:0%;
+        width:70%;
+        height:70%;
+        transform: translate(-50%,-50%);
+        left: 10%;
+        z-index: -1;
+    }
+
+    a{
+        background-color:#F72585;
+        text-decoration: none;
+        color:white;
+        box-shadow: 2px 2px 5px rgb(15, 15, 15);
+        border-radius:50px;
+        font-size: 22px;
+        padding: 5px 20px;
+        cursor: pointer;
+        z-index: 99;
+   margin: 5%;
+   margin-top: 0%;
+   font-size: 40px;
+    }
+    a:hover{
+        box-shadow: 0px 0px 0px 0px white;
+    }
+    .last{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        display: flex;
+        justify-content: center;transform: translate(0%,-10%);
+    }
+    .image img{
+        width: 100%;
+    }
+    @media only screen and (max-width: 600px) {
+   
+.main{
+    flex-direction: column-reverse;
+    width: 90%;
+    margin:auto;
+    /* background-color: #5d1d77; */
+}
+.image{
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    /* background-color: red; */
+}
+a{
+    font-size: 10px;
+    padding: 10px 20px;
+}
+.content{
+    width: 100%;
+}
+.subcontent{
+    width: 100%;margin: auto;
+    /* background-color: aqua; */
+}
+.heading{
+    width: 100%;
+}
+.heading p{
+    font-size: 15px;
+}
+.heading h1
+    {
+        font-size: 25px;
+    }
+    .part1{
+       width:100%;
+       transform: translate(0%,0%);
+    display: flex;padding-bottom: 5%;
+    }
+.menu{
+    margin-left: 5%;
+}
+.abc{
+    height: 2px;
+    background-color: white;
+    width: 70%;margin: auto;
+}
+    }
+    </style>
+</head>
+<body>
+  
+<div class="menu">
+    <img class="bac" src="bac.svg" alt="">
+</div>
+
+  
+</div>
+    <div class="main">
+        <div class="content">
+            <div class="subcontent">
+<div class="part1">
+    <div class="sec1"><h1>72</h1></div>
+    <div class="sec2">
+        <p>hours
+            <br>
+            challenge
+        </p>
+    </div>
+</div>
+<div class="abc"></div>
+<div class="heading">
+    <img class="bac" src="bac.svg" alt="">
+    <h1>DANCE</h1>
+    <br><br>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, corrupti! Inventore eveniet fugiat odio deserunt, alias face
+        re quidem soluta veniam magnam dolores, tempore quibusdam tenetur repellendus reprehenderit consequuntur, in perferendis.
+    </p>
+</div>
+</div>
+        </div>
+        <div class="image">
+<img src="dance.svg" alt="">
+        </div>
+      
+
+    </div>
+    <br>
+    <div class="last">
+        <a href="">GUIDELINESS</a>
+        <a href="form.php">REGISTER</a>
+    </div>
+   
+</body>
+</html>
